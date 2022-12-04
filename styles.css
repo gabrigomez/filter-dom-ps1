@@ -77,8 +77,8 @@ ul {
 }
 
 ul:has(li:hover) li:not(:hover) {
-    opacity: .6;
-    scale: .98
+    opacity: .4;
+    scale: .90
 }
 
 li {
