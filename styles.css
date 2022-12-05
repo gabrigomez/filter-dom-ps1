@@ -82,7 +82,11 @@ ul:has(li:hover) li:not(:hover) {
 }
 
 li {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    align-items: center;
+    
     background-color: rgb(52, 58, 65);
     padding: 2.8rem;
     border-radius: .8rem;
@@ -104,6 +108,13 @@ li h2 {
 li p {
     margin-top: 1.6rem;
     opacity: .5;
+
+    text-align: center;
+}
+
+a {
+    margin-top: 4px;
+    align-self: center;
 }
 
 @media (max-width: 36rem) {
