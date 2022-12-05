@@ -86,7 +86,7 @@ li {
     flex-direction: column;
     flex: 1;
     align-items: center;
-    
+
     background-color: rgb(52, 58, 65);
     padding: 2.8rem;
     border-radius: .8rem;
@@ -115,6 +115,12 @@ li p {
 a {
     margin-top: 4px;
     align-self: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1.6rem;
 }
 
 @media (max-width: 36rem) {
