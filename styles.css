@@ -21,10 +21,12 @@
 }
 
 body {
-    background: rgb(19, 18, 18); 
-    background-image: url("https://wallpaper.dog/large/10897984.jpg");
+    background: rgb(0, 0, 0); 
+    background-image: url("https://i.pinimg.com/originals/63/9b/0a/639b0aaebcdb5403a7ac6b59ebc77064.gif");
     font-size: 1.6rem;
-    background-position: center
+    background-position: center;
+    background-repeat: no-repeat;  
+
 }
 
 body * {
