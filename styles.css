@@ -65,11 +65,12 @@ ul {
     gap: 1.6rem;
 
     list-style: none;
+    cursor: pointer;
 }
 
 ul:has(li:hover) li:not(:hover) {
     opacity: .4;
-    scale: .90
+    scale: .90;    
 }
 
 li {
