@@ -36,7 +36,6 @@ body * {
 header {
     text-align: center;
     color: aliceblue;
-
     padding: 36px;
     margin: auto;
 }
@@ -48,7 +47,6 @@ header input {
 
     background-color: rgb(61, 61, 61);
     border: 0;
-
     width: 450px;
     color: rgb(247, 248, 248);
 
@@ -79,6 +77,7 @@ li {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
     align-items: center;
 
     background-color: rgb(52, 58, 65);
@@ -103,9 +102,7 @@ li h2 {
 li p {
     margin-top: 1.6rem;
     margin-bottom: 1.6rem;
-    opacity: .5;
-    height: 100%;
-    
+    opacity: .5;    
     text-align: center;
 }
 
@@ -114,7 +111,6 @@ a {
     align-self: center;
     color: white;
     font-size: 14px;
-
     text-decoration: none;
 }
 
@@ -127,6 +123,7 @@ img {
     width: 150px;
     height: 150px;
     margin-bottom: 1.6rem;
+    border-radius: 10px;
 }
 
 @media (max-width: 36rem) {
