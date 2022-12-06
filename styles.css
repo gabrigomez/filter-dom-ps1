@@ -101,6 +101,7 @@ li p {
     margin-top: 1.6rem;
     margin-bottom: 1.6rem;
     opacity: .5;
+    height: 100%;
     
     text-align: center;
 }
