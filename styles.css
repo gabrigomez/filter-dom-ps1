@@ -129,6 +129,19 @@ li p {
     text-align: center;
 }
 
+.siteLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.siteLogo img {
+    width: 100px;
+    height: 50px;
+    margin-top: 1.6rem;
+    opacity: .3;
+}
+
 a {
     margin-top: 20px;
     align-self: center;
