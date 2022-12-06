@@ -33,10 +33,29 @@ body * {
     font-family: 'Raleway', serif;
 }
 
+.genre {
+    display: flex;
+}
+
+.genre p {
+    margin-top: 3px;
+    font-weight: bold;
+    color: rgb(248, 1, 1);
+    font-size: 1.6rem;
+}
+
+.genre i {
+    margin-right: 4px;
+    margin-top: 2px;
+    font-size: 20px;
+    color: yellow;
+}
+
 header {
     text-align: center;
-    color: aliceblue;
+    justify-content: center;
     padding: 36px;
+    color: aliceblue;
     margin: auto;
 }
 
@@ -92,11 +111,14 @@ li {
 li .header {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: .8rem;
+
 }
 
 li h2 {
     opacity: .9;
+    width: 100%;
 }
 
 li p {
@@ -115,7 +137,7 @@ a {
 }
 
 a:hover {
-    color: yellowgreen;
+    color: rgb(255, 251, 0);
 }
     
 
